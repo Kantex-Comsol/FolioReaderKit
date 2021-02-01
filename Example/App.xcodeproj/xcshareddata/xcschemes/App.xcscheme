@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3AAA8B671E9BB78B00A47E5A"
-               BuildableName = "MultipleInstance-Example.app"
-               BlueprintName = "MultipleInstance-Example"
-               ReferencedContainer = "container:Example.xcodeproj">
+               BlueprintIdentifier = "D12066621D65FABD006E1D18"
+               BuildableName = "Storyboard-Example.app"
+               BlueprintName = "Storyboard-Example"
+               ReferencedContainer = "container:I.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -27,19 +27,17 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
-      <Testables>
-      </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3AAA8B671E9BB78B00A47E5A"
-            BuildableName = "MultipleInstance-Example.app"
-            BlueprintName = "MultipleInstance-Example"
-            ReferencedContainer = "container:Example.xcodeproj">
+            BlueprintIdentifier = "D12066621D65FABD006E1D18"
+            BuildableName = "Storyboard-Example.app"
+            BlueprintName = "Storyboard-Example"
+            ReferencedContainer = "container:I.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
+      <Testables>
+      </Testables>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -55,14 +53,12 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3AAA8B671E9BB78B00A47E5A"
-            BuildableName = "MultipleInstance-Example.app"
-            BlueprintName = "MultipleInstance-Example"
-            ReferencedContainer = "container:Example.xcodeproj">
+            BlueprintIdentifier = "D12066621D65FABD006E1D18"
+            BuildableName = "Storyboard-Example.app"
+            BlueprintName = "Storyboard-Example"
+            ReferencedContainer = "container:I.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -74,10 +70,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3AAA8B671E9BB78B00A47E5A"
-            BuildableName = "MultipleInstance-Example.app"
-            BlueprintName = "MultipleInstance-Example"
-            ReferencedContainer = "container:Example.xcodeproj">
+            BlueprintIdentifier = "D12066621D65FABD006E1D18"
+            BuildableName = "Storyboard-Example.app"
+            BlueprintName = "Storyboard-Example"
+            ReferencedContainer = "container:I.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

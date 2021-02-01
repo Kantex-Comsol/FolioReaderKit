@@ -29,4 +29,7 @@ class ExampleFolioReaderContainer: FolioReaderContainer {
         guard let bookPath = Bundle.main.path(forResource: "The Silver Chair", ofType: "epub") else { return }
         setupConfig(config, epubPath: bookPath)
     }
+    
+    
 }
+
