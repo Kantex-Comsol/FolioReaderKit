@@ -13,7 +13,7 @@
 		1F74B26725C323C000744FE8 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F74B26625C323C000744FE8 /* LibraryViewController.swift */; };
 		1F74B26B25C324A400744FE8 /* Repo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F74B26A25C324A400744FE8 /* Repo.swift */; };
 		1FF2FF9B25C45D5C00BE3C0F /* DocumentControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF2FF9A25C45D5C00BE3C0F /* DocumentControl.swift */; };
-		1FF2FF9F25C47C4900BE3C0F /* IntermediateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF2FF9E25C47C4900BE3C0F /* IntermediateViewController.swift */; };
+		1FF2FF9F25C47C4900BE3C0F /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF2FF9E25C47C4900BE3C0F /* BookViewController.swift */; };
 		3AAA8B861E9BB8B700A47E5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAA8B7E1E9BB8B700A47E5A /* AppDelegate.swift */; };
 		3AAA8B881E9BB8B700A47E5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AAA8B801E9BB8B700A47E5A /* LaunchScreen.storyboard */; };
 		3AAA8B891E9BB8B700A47E5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AAA8B821E9BB8B700A47E5A /* Main.storyboard */; };
@@ -36,7 +36,7 @@
 		1F74B26625C323C000744FE8 /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
 		1F74B26A25C324A400744FE8 /* Repo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repo.swift; sourceTree = "<group>"; };
 		1FF2FF9A25C45D5C00BE3C0F /* DocumentControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DocumentControl.swift; path = Main/DocumentControl.swift; sourceTree = "<group>"; };
-		1FF2FF9E25C47C4900BE3C0F /* IntermediateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = IntermediateViewController.swift; path = Main/IntermediateViewController.swift; sourceTree = "<group>"; };
+		1FF2FF9E25C47C4900BE3C0F /* BookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BookViewController.swift; path = Main/BookViewController.swift; sourceTree = "<group>"; };
 		3AAA8B7E1E9BB8B700A47E5A /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3AAA8B811E9BB8B700A47E5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3AAA8B831E9BB8B700A47E5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -90,7 +90,7 @@
 		1A42C2801C0E3882000F2137 = {
 			isa = PBXGroup;
 			children = (
-				1FF2FF9E25C47C4900BE3C0F /* IntermediateViewController.swift */,
+				1FF2FF9E25C47C4900BE3C0F /* BookViewController.swift */,
 				1FF2FF9A25C45D5C00BE3C0F /* DocumentControl.swift */,
 				1F74B25B25C3215C00744FE8 /* Core */,
 				3AAA8B9B1E9BB94B00A47E5A /* Shared */,
@@ -429,7 +429,7 @@
 			files = (
 				1F74B26325C323A400744FE8 /* Document.swift in Sources */,
 				1F74B26725C323C000744FE8 /* LibraryViewController.swift in Sources */,
-				1FF2FF9F25C47C4900BE3C0F /* IntermediateViewController.swift in Sources */,
+				1FF2FF9F25C47C4900BE3C0F /* BookViewController.swift in Sources */,
 				1FF2FF9B25C45D5C00BE3C0F /* DocumentControl.swift in Sources */,
 				1F703EE225C83E07004AD6F1 /* LibraryHeaderView.swift in Sources */,
 				751F8CF71ECD20110050A2CF /* Epub.swift in Sources */,

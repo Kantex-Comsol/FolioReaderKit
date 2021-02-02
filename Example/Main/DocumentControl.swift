@@ -40,7 +40,7 @@ class DocumentControl: UIStackView {
         print("Clicked")
         let rootVC = UIViewController()
         let navVC = UINavigationController(rootViewController: rootVC)
-        navVC.pushViewController( IntermediateViewController(), animated: true )
+        
         
         
     }

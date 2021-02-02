@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import FolioReaderKit
 
 
 
@@ -46,7 +47,15 @@ class LibraryViewController: UICollectionViewController {
            let storyBord = UIStoryboard(name: "Main", bundle: nil)
             let showVc = storyBord.instantiateViewController(withIdentifier: "bookView")
             showVc.modalPresentationStyle = .fullScreen
-            present(showVc, animated: true)
+            
+           
+            
+            // Do any additional setup after loading the view.
+            let bookPath = Bundle.main.path(forResource: "The Silver Chair", ofType: "epub")
+            let bookVc = BookViewController(bookPath: bookPath!)
+            let nav = UINavigationController(rootViewController: bookVc)
+            nav.modalPresentationStyle = .fullScreen
+            present(nav, animated: true)
         }
       }
     }
